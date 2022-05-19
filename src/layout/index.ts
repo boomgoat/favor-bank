@@ -1,2 +1,2 @@
-export * from "./Footer";
-export * from "./Header";
+export * from "./widgets/footer.widget";
+export * from "./widgets/header.widget";

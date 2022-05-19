@@ -1,0 +1,33 @@
+.header-nav {
+  @apply w-full flex  items-center align-middle;
+}
+
+.header-nav-left {
+  @apply flex justify-start items-center align-middle text-black w-1/2;
+}
+
+.header-nav-right {
+  @apply flex justify-end items-center align-middle text-gray-600 w-1/2;
+}
+
+.header-nav-right img {
+  @apply w-7 text-gray-600;
+}
+
+.header-nav a {
+  @apply text-black px-5;
+}
+
+.header-nav a.active {
+  @apply font-semibold;
+}
+
+.login-btn {
+  @apply rounded bg-green-500 text-white px-5 py-1;
+  transition: all 0.25s ease-in-out;
+}
+
+.login-btn:hover {
+  @apply rounded bg-green-400 text-gray-200 px-5 py-1;
+  transition: all 0.25s ease-in-out;
+}
